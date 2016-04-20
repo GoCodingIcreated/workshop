@@ -1,0 +1,27 @@
+This folder is about how to use Google Tests (gtest next).
+
+STEP 1:
+    Install gtest:
+        $ sudo apt-get install libgtest-dev
+        $ sudo apt-get install cmake
+
+        $ cd /usr/src/gtest
+        $ sudo make CMakeLists.txt
+        $ sudo make
+
+        $ sudo cp *.a /usr/lib
+        
+    And now this is ready for using!
+
+STEP 2:
+    Write your program like my_program.cpp
+    
+    Write testing program like testing_program.cpp
+    
+    Compile this two programs as common project. But dont forget to add -lgtest keys to let linker knows about gtest lib.
+    You also need to add -lpthread, because gtest uses this lib.
+        $ g++ my_program.cpp testing_program.cpp -o example.out -lpthread -lgtest
+
+STEP 3:
+    Just enjoy your life with easy to use test framework :)
+
