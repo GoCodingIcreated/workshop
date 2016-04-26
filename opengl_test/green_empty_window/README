@@ -4,3 +4,6 @@ This program just paints a window with a green background.
 
 To compile sourse files I use this command:
     $ gcc -lglut -lGL test.c -o test
+
+Note: also works with:
+    $ g++ -lglut -lGL test.c -o test
