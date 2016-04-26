@@ -1,0 +1,6 @@
+This is a simple example of using OpenGL.
+
+This program just paints a window with a green background.
+
+To compile sourse files I use this command:
+    $ gcc -lglut -lGL test.c -o test
