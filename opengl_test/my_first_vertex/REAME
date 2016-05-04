@@ -1,0 +1,3 @@
+It draw a point at the middle of screan.
+To compile you need to add -lGLEW flag to compile line. And it looks now like this:
+    $ g++ -o main main.cpp -lGLEW -lGL -lglut
