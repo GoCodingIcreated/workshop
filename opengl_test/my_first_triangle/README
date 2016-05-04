@@ -1,0 +1,5 @@
+The simple example of drawing white triangle.
+
+I have some problems when I was trying to run it. It didn't want to draw a triangle. And I found that it draw a point only at the middle of screan.
+I solve this by using Bumblebee. And now I run my programs like:
+    $ optirun ./a.out
